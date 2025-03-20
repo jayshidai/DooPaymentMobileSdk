@@ -18,7 +18,7 @@
 		</data>
 		<key>Modules/DooPaymentMobileSdk.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		N5OaY4Np1ImQuMwUOwOT1AtuUGM=
+		UeC+zasuZzSzjnwnJaiyEcI14q4=
 		</data>
 		<key>Modules/DooPaymentMobileSdk.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/DooPaymentMobileSdk.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		JIM+wnFQ4pj0I+eFCEunNvHCkDA=
+		w663Yluw+5rUfRgz7zyQ0eUQAA4=
 		</data>
 		<key>Modules/DooPaymentMobileSdk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		N5OaY4Np1ImQuMwUOwOT1AtuUGM=
+		UeC+zasuZzSzjnwnJaiyEcI14q4=
 		</data>
 		<key>Modules/DooPaymentMobileSdk.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/DooPaymentMobileSdk.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		NVkp2E0ZC50+YoCK2XjOmR3ih/s=
+		vFMpUKvD/1Esz40tPnrV/JjP5DU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -81,7 +81,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			YWeZgjtXp7pNJj/fNV46lI9h4cWSlvKvUvULvemBgrs=
+			QYFv3JGH4YCHvQh7vu2D2rwI9VhdqzjPKJB/2wkHerM=
 			</data>
 		</dict>
 		<key>Modules/DooPaymentMobileSdk.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -109,14 +109,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ApMkjYmht9xVyPUlK+nACGu6k6MG1yGIkYbanCY8SqA=
+			uKEJjTWdYaoPaTw2n0iEOiXpG5DukyaL35bXIZyQsd4=
 			</data>
 		</dict>
 		<key>Modules/DooPaymentMobileSdk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			YWeZgjtXp7pNJj/fNV46lI9h4cWSlvKvUvULvemBgrs=
+			QYFv3JGH4YCHvQh7vu2D2rwI9VhdqzjPKJB/2wkHerM=
 			</data>
 		</dict>
 		<key>Modules/DooPaymentMobileSdk.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -144,7 +144,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			IFnktzyN47LrQXe5HRu8J/iZ+bmunQnDBM/P1vnhEH8=
+			n8nWAEYL5xBuoiSDiSKUgG9M2fA/xU+XXHE6lbEPzqE=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
