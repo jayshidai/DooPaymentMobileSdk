@@ -1,0 +1,529 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DooPaymentMobileSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Hyperswitch",
+        "printedName": "Hyperswitch",
+        "declKind": "Import",
+        "moduleName": "DooPaymentMobileSdk"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PayCore",
+        "printedName": "PayCore",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "initSDK",
+            "printedName": "initSDK(publishableKey:customBackendUrl:customParams:customLogUrl:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@DooPaymentMobileSdk@objc(cs)PayCore(im)initSDKWithPublishableKey:customBackendUrl:customParams:customLogUrl:",
+            "mangledName": "$s19DooPaymentMobileSdk7PayCoreC7initSDK14publishableKey16customBackendUrl0K6Params0k3LogM0ySS_SSSgSDySSypGSgAItF",
+            "moduleName": "DooPaymentMobileSdk",
+            "objc_name": "initSDKWithPublishableKey:customBackendUrl:customParams:customLogUrl:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "initPaymentSession",
+            "printedName": "initPaymentSession(paymentIntentClientSecret:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@DooPaymentMobileSdk@objc(cs)PayCore(im)initPaymentSessionWithPaymentIntentClientSecret:",
+            "mangledName": "$s19DooPaymentMobileSdk7PayCoreC04initB7Session25paymentIntentClientSecretySS_tF",
+            "moduleName": "DooPaymentMobileSdk",
+            "objc_name": "initPaymentSessionWithPaymentIntentClientSecret:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getCustomerSavedPaymentMethods",
+            "printedName": "getCustomerSavedPaymentMethods(result:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Any?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Any?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@DooPaymentMobileSdk@objc(cs)PayCore(im)getCustomerSavedPaymentMethodsWithResult:",
+            "mangledName": "$s19DooPaymentMobileSdk7PayCoreC016getCustomerSavedB7Methods6resultyyypSgc_tF",
+            "moduleName": "DooPaymentMobileSdk",
+            "objc_name": "getCustomerSavedPaymentMethodsWithResult:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getCustomerSavedPaymentMethodData",
+            "printedName": "getCustomerSavedPaymentMethodData(result:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Any?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Any?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@DooPaymentMobileSdk@objc(cs)PayCore(im)getCustomerSavedPaymentMethodDataWithResult:",
+            "mangledName": "$s19DooPaymentMobileSdk7PayCoreC016getCustomerSavedB10MethodData6resultyyypSgc_tF",
+            "moduleName": "DooPaymentMobileSdk",
+            "objc_name": "getCustomerSavedPaymentMethodDataWithResult:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "confirmWithCustomerDefaultPaymentMethod",
+            "printedName": "confirmWithCustomerDefaultPaymentMethod(result:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Any?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Any?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@DooPaymentMobileSdk@objc(cs)PayCore(im)confirmWithCustomerDefaultPaymentMethodWithResult:",
+            "mangledName": "$s19DooPaymentMobileSdk7PayCoreC026confirmWithCustomerDefaultB6Method6resultyyypSgc_tF",
+            "moduleName": "DooPaymentMobileSdk",
+            "objc_name": "confirmWithCustomerDefaultPaymentMethodWithResult:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getCustomerLastUsedPaymentMethodData",
+            "printedName": "getCustomerLastUsedPaymentMethodData(result:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Any?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Any?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@DooPaymentMobileSdk@objc(cs)PayCore(im)getCustomerLastUsedPaymentMethodDataWithResult:",
+            "mangledName": "$s19DooPaymentMobileSdk7PayCoreC019getCustomerLastUsedB10MethodData6resultyyypSgc_tF",
+            "moduleName": "DooPaymentMobileSdk",
+            "objc_name": "getCustomerLastUsedPaymentMethodDataWithResult:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "confirmWithCustomerLastUsedPaymentMethod",
+            "printedName": "confirmWithCustomerLastUsedPaymentMethod(result:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Any?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Any?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@DooPaymentMobileSdk@objc(cs)PayCore(im)confirmWithCustomerLastUsedPaymentMethodWithResult:",
+            "mangledName": "$s19DooPaymentMobileSdk7PayCoreC027confirmWithCustomerLastUsedB6Method6resultyyypSgc_tF",
+            "moduleName": "DooPaymentMobileSdk",
+            "objc_name": "confirmWithCustomerLastUsedPaymentMethodWithResult:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "presentPaymentSheet",
+            "printedName": "presentPaymentSheet(result:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Any?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Any?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@DooPaymentMobileSdk@objc(cs)PayCore(im)presentPaymentSheetWithResult:",
+            "mangledName": "$s19DooPaymentMobileSdk7PayCoreC07presentB5Sheet6resultyyypSgc_tF",
+            "moduleName": "DooPaymentMobileSdk",
+            "objc_name": "presentPaymentSheetWithResult:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PayCore",
+                "printedName": "DooPaymentMobileSdk.PayCore",
+                "usr": "c:@M@DooPaymentMobileSdk@objc(cs)PayCore"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@DooPaymentMobileSdk@objc(cs)PayCore(im)init",
+            "mangledName": "$s19DooPaymentMobileSdk7PayCoreCACycfc",
+            "moduleName": "DooPaymentMobileSdk",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@DooPaymentMobileSdk@objc(cs)PayCore",
+        "mangledName": "$s19DooPaymentMobileSdk7PayCoreC",
+        "moduleName": "DooPaymentMobileSdk",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/cailei\/Documents\/github\/DooPaymentMobileSdk\/DooPaymentMobileSdk\/PayCore.swift",
+      "kind": "Dictionary",
+      "offset": 232,
+      "length": 3,
+      "value": "[]"
+    }
+  ]
+}

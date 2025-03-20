@@ -1,0 +1,6 @@
+framework module DooPaymentMobileSdk {
+  umbrella header "DooPaymentMobileSdk.h"
+  export *
+
+  module * { export * }
+}
