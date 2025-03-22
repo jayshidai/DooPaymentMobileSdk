@@ -65,6 +65,10 @@
 	<dict>
 		<key>Headers/DooPaymentMobileSdk.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			XOfQNGxmcfA4whTD3K7O80jJPBA=
+			</data>
 			<key>hash2</key>
 			<data>
 			dhOI/rjfknj14aWPUTO4nqWYFwx3tUYzPZ1n03ped/M=
@@ -72,6 +76,10 @@
 		</dict>
 		<key>Headers/PayCore.swift</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			bThevRYQD4D7lEAEl7sDEK0q7n8=
+			</data>
 			<key>hash2</key>
 			<data>
 			Cc0XMMU3bYZ1VkAFJ0NsnPd8lU70sx9IRuOY+aH5Xz8=
@@ -79,6 +87,10 @@
 		</dict>
 		<key>Modules/DooPaymentMobileSdk.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			UeC+zasuZzSzjnwnJaiyEcI14q4=
+			</data>
 			<key>hash2</key>
 			<data>
 			QYFv3JGH4YCHvQh7vu2D2rwI9VhdqzjPKJB/2wkHerM=
@@ -86,6 +98,10 @@
 		</dict>
 		<key>Modules/DooPaymentMobileSdk.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			6avdVstbKk75Y5Zjk/jEmJ84ezE=
+			</data>
 			<key>hash2</key>
 			<data>
 			EEzAqsZCOv073mPzyTeARu6eMOHfcj45ar+8wPvdEDA=
@@ -93,6 +109,10 @@
 		</dict>
 		<key>Modules/DooPaymentMobileSdk.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			vqQFv8v+tDafXmKCmoMuCygLoa4=
+			</data>
 			<key>hash2</key>
 			<data>
 			CpZBpajWBZyrLvitK8bqPHMNpCft9UFaWMR0Iyi+R2s=
@@ -100,6 +120,10 @@
 		</dict>
 		<key>Modules/DooPaymentMobileSdk.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			6avdVstbKk75Y5Zjk/jEmJ84ezE=
+			</data>
 			<key>hash2</key>
 			<data>
 			EEzAqsZCOv073mPzyTeARu6eMOHfcj45ar+8wPvdEDA=
@@ -107,6 +131,10 @@
 		</dict>
 		<key>Modules/DooPaymentMobileSdk.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			w663Yluw+5rUfRgz7zyQ0eUQAA4=
+			</data>
 			<key>hash2</key>
 			<data>
 			uKEJjTWdYaoPaTw2n0iEOiXpG5DukyaL35bXIZyQsd4=
@@ -114,6 +142,10 @@
 		</dict>
 		<key>Modules/DooPaymentMobileSdk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			UeC+zasuZzSzjnwnJaiyEcI14q4=
+			</data>
 			<key>hash2</key>
 			<data>
 			QYFv3JGH4YCHvQh7vu2D2rwI9VhdqzjPKJB/2wkHerM=
@@ -121,6 +153,10 @@
 		</dict>
 		<key>Modules/DooPaymentMobileSdk.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			KotXdSWX6JzYeMWiKjWk7ys1RO0=
+			</data>
 			<key>hash2</key>
 			<data>
 			0GsiVwMqpESO+FT6Sey3V5Ww+Q8JRby1sA1jRfcMP2Q=
@@ -128,6 +164,10 @@
 		</dict>
 		<key>Modules/DooPaymentMobileSdk.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			LE61VY4I6Mx5vjZhWq8M5AvekUU=
+			</data>
 			<key>hash2</key>
 			<data>
 			wQMV8cytfAw0sUji5pFR4lOs2wNi5TMZLRxG1D1n+bo=
@@ -135,6 +175,10 @@
 		</dict>
 		<key>Modules/DooPaymentMobileSdk.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			KotXdSWX6JzYeMWiKjWk7ys1RO0=
+			</data>
 			<key>hash2</key>
 			<data>
 			0GsiVwMqpESO+FT6Sey3V5Ww+Q8JRby1sA1jRfcMP2Q=
@@ -142,6 +186,10 @@
 		</dict>
 		<key>Modules/DooPaymentMobileSdk.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			vFMpUKvD/1Esz40tPnrV/JjP5DU=
+			</data>
 			<key>hash2</key>
 			<data>
 			n8nWAEYL5xBuoiSDiSKUgG9M2fA/xU+XXHE6lbEPzqE=
@@ -149,6 +197,10 @@
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			MV7dVgvTSeP2756TEfDj2pcEwSo=
+			</data>
 			<key>hash2</key>
 			<data>
 			+rrWCvGicxuDlSquUw2GMLq6cCAxwRRkSa/DvStmzIc=
