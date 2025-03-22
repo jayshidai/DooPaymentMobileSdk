@@ -25,7 +25,7 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Novice.Cai' => 'jayshidai@163.com' }
-  s.source           = { :git => 'https://github.com/jayshidai/DooPaymentMobileSdk.git', :tag => s.version }
+  s.source           = { :git => 'https://github.com/jayshidai/DooPaymentMobileSdk.git' }
   s.ios.vendored_frameworks = 'DooPaymentMobileSdk.xcframework'
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
