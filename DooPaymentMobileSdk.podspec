@@ -31,6 +31,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '13.4'
   s.swift_version = '5.0'
+  s.static_framework  =  true
   #s.source_files = 'DooPaymentMobileSdk/Classes/**/*.{swift,h,m,mm}'
   
   # s.resource_bundles = {
