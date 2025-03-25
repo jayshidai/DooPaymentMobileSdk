@@ -80,7 +80,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
   spec.ios.vendored_frameworks = 'DooPaymentMobileSdk.xcframework'
-  spec.source       = { :git => "https://github.com/jayshidai/DooPaymentSdk.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/jayshidai/DooPaymentMobileSdk.git", :tag => "#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
