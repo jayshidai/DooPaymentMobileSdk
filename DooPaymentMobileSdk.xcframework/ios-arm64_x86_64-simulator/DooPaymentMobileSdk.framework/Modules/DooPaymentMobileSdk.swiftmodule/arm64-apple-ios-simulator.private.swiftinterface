@@ -5,14 +5,33 @@
 import Foundation
 import Hyperswitch
 import Swift
+import UIKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-@_inheritsConvenienceInitializers @objc public class PayCore : ObjectiveC.NSObject {
-  @objc public static let shared: DooPaymentMobileSdk.PayCore
-  @objc public func initSDK(publishableKey: Swift.String, customBackendUrl: Swift.String? = nil, customParams: [Swift.String : Any]? = nil, customLogUrl: Swift.String? = nil, completion: @escaping (Swift.Bool, Swift.String?) -> Swift.Void)
-  @objc public func initPaymentSession(paymentIntentClientSecret: Swift.String)
-  @objc public func presentPaymentSheet(result: @escaping (_ result: Any?) -> Swift.Void)
+@objc public enum SDKResult : Swift.Int {
+  case initSDKSuccess = 1000
+  case initSDKFailed = 1001
+  case initPaymentSheetFailed = 1002
+  case paymentSuccess = 1003
+  case paymentFailed = 1004
+  case paymentCanceled = 1005
+  case configurationRequired = 1006
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@_inheritsConvenienceInitializers @objc public class PayManager : ObjectiveC.NSObject {
+  @objc public static let shared: DooPaymentMobileSdk.PayManager
+  @objc public func initSDK(publishableKey: Swift.String, customBackendUrl: Swift.String? = nil, customLogUrl: Swift.String? = nil, customParams: [Swift.String : Any]? = nil, completion: @escaping (DooPaymentMobileSdk.SDKResult, Swift.String?) -> Swift.Void)
+  @objc public func initPaymentSession(clientSecret: Swift.String)
+  @objc public func presentPaymentSheet(customParams: [Swift.String : Any]? = nil, result: @escaping (DooPaymentMobileSdk.SDKResult, Swift.String?) -> Swift.Void)
+  @objc public func presentPaymentSheetWithConfig(config: Any? = PaymentSheet.Configuration(), result: @escaping (DooPaymentMobileSdk.SDKResult, Swift.String?) -> Swift.Void)
   @objc override dynamic public init()
   @objc deinit
 }
+extension DooPaymentMobileSdk.SDKResult : Swift.Equatable {}
+extension DooPaymentMobileSdk.SDKResult : Swift.Hashable {}
+extension DooPaymentMobileSdk.SDKResult : Swift.RawRepresentable {}
